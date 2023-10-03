@@ -105,13 +105,14 @@ The example below is using UPS as the delivery service and has the price set as 
 - Anything related to sending orders
 
 ## Acceptance Criteria 
-- [ ] Create an endpoint `GET` `/products` which returns the same response as the `Example Response` section
+- [ ] Create an endpoint `GET` `/products` which returns the same response as the `Examples` section
+- [ ] The prices must be calculated at request time
 - [ ] The numbers in the response, must all be to 2 decimal places
 - [ ] Able to switch between delivery companies by an environment variable and it logs which delivery service was used. TIP: we expect an implementation for each delivery service
 - [ ] The price can be changed from an environment variable
 - [ ] Adequate unit testing
 - [ ] API and Mongo running in a container with Docker Compose with Mongo starting before the app on port `27017` with the port coming from a `.env` file
-- [ ] Appropriate logging, including a log which states which delivery service was used just like the `Example Success Log` section
+- [ ] Appropriate logging, including a log which states which delivery service was used just like the `Examples` section
 - [ ] Postman collection and environment provided
 - [ ] Makefile with commands to `stop` and `start` the service
 
