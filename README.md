@@ -17,7 +17,7 @@ We would like you to deploy the API in a container with Docker Compose. We expec
 
 We need a Makefile with commands to `start` and `stop` the service. We also need a Postman collection/environment which contains the request. Our team believes strongly in writing maintainable and testable code. We expect the app to be adequately unit-tested.
 
-Feel free to import any packages which will make your life easier. 
+Feel free to import any packages which will make your life easier. Be sure to keep a list, as you will be asked to justify your reasoning for each.
 
 ## Examples
 
